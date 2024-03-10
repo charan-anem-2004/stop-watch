@@ -1,0 +1,111 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    text-align: center;
+    background:#ebeef1;
+}
+h1{
+    font-size: 5vmax;
+    font-style: bold;
+    margin-top: 10vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background:-webkit-linear-gradient(#35ae06,#3b6314,#40543d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+#container{
+    height:30%;
+    width:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin:60px auto;
+    margin-top: 20vh;
+    margin-bottom: 10px;
+    gap:3vh;
+
+}
+#container1{
+    height:30%;
+    width:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin:60px auto;
+    margin-top: 5px;
+    gap:3vh;
+
+}
+
+.box{
+    font-size: 2vmax;
+    height:4.5vmax;
+    width:4.5vmax;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background:#ebeef1;
+    box-shadow: 8px 8px 10px -1px rgba(10, 99,169, 0.16),
+                -8px -8px 10px -1px rgba(255,255,255,0.70);
+}
+.box1{
+    font-size: 2vmax;
+    height:3.5vmax;
+    width:3.5vmax;
+    color:rgb(12, 0, 0);
+    text-align: center;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding:10px auto;
+    height:3vmax;
+    width:7.5vmax;
+    font-size: 1.7vmax;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    margin:0px 1.5vw;
+    color:#ebeef1;
+    letter-spacing: 1.5px;
+
+}
+
+#start{
+    background-color: rgb(0, 129, 0);
+    color:#ebeef1;
+}
+#stop{
+    background-color: rgb(217, 0, 0);
+}
+#reset{
+    background-color: rgb(0, 157, 157);
+}
+
+button:hover{
+    scale:1.15;
+    transition-duration:0.18s;
+   transition-timing-function: ease-in-out;
+}
+
+@media screen and (max-width : 480px) {
+       #container1{
+        width:60%;
+       }  
+       #container{
+        width:60%;
+       }  
+}
